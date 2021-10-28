@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="suite" parallel = "tests" thread-count="2">
+	<listeners>
+		<listener class-name="com.testingshastra.util.TestListener"></listener>
+	</listeners>
+	<test name="Chrome Test">
+		<parameter name="browser-name" value="Chrome">
+			<classes>
+				<class name="com.testingshastra.uitests.SignUpTest"></class>
+				<class name="com.testingshastra.uitests.homepagetests.HomePageTests"></class>
+				<class name ="com.testingshastra.config.BaseClass"></class>
+			</classes>
+		</parameter>
+	</test>
+	<test name="Firefox Test">
+		<parameter name="browser-name" value="Chrome">
+			<classes>
+				<class name="com.testingshastra.uitests.SignUpTest"></class>
+				<class name="com.testingshastra.uitests.homepagetests.HomePageTests"></class>
+				<class name ="com.testingshastra.config.BaseClass"></class>
+			</classes>
+		</parameter>
+	</test>
+</suite>

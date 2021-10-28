@@ -1,0 +1,7 @@
+2021-10-17 11:35:24,925[com.testingshastra.uitests.homepagetests.SignUpTest][com.testingshastra.uitests.homepagetests.SignUpTest 
+ INFO  URL is launchedhttps://ijmeet.com/
+]2021-10-17 11:35:38,677[WaitFor.class][WaitFor.class 
+ INFO  Waiting for element to be visible
+]2021-10-17 11:35:38,964[com.testingshastra.uitests.homepagetests.SignUpTest][com.testingshastra.uitests.homepagetests.SignUpTest 
+ INFO  captcha is verified
+]

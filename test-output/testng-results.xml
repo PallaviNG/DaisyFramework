@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22998" started-at="2021-10-24T10:34:11 IST" finished-at="2021-10-24T10:34:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22998" started-at="2021-10-24T10:34:11 IST" finished-at="2021-10-24T10:34:34 IST">
+      <class name="com.testingshastra.uitests.homepagetests.HomePageTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testingshastra.uitests.homepagetests.HomePageTests@401e7803]" name="setup" is-config="true" duration-ms="9118" started-at="2021-10-24T10:34:11 IST" finished-at="2021-10-24T10:34:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUserRedirectsToJoinMeetingPage()[pri:0, instance:com.testingshastra.uitests.homepagetests.HomePageTests@401e7803]" name="verifyUserRedirectsToJoinMeetingPage" duration-ms="12903" started-at="2021-10-24T10:34:20 IST" finished-at="2021-10-24T10:34:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserRedirectsToJoinMeetingPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testingshastra.uitests.homepagetests.HomePageTests@401e7803]" name="tearDown" is-config="true" duration-ms="894" started-at="2021-10-24T10:34:33 IST" finished-at="2021-10-24T10:34:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testingshastra.uitests.homepagetests.HomePageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
