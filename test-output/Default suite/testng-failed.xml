@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testingshastra.uitests.homepagetests.HomePageTests">
+      <class name="com.testingshastra.uitests.homepagetests.SignUpTest">
         <methods>
-          <include name="verifyUserRedirectsToJoinMeetingPage"/>
           <include name="setup"/>
+          <include name="validateFullNameFieldForCorrectInput"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.testingshastra.uitests.homepagetests.HomePageTests -->
+      </class> <!-- com.testingshastra.uitests.homepagetests.SignUpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

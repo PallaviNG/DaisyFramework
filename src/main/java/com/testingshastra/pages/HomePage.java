@@ -42,7 +42,6 @@ public class HomePage {
 		while(itr.hasNext()) {
 			String linkText = itr.next().getText();
 			System.out.println(linkText);
-			
 		}
 	}
 	
