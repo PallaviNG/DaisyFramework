@@ -6,7 +6,7 @@
 	<test name="Chrome Test">
 		<parameter name="browser-name" value="Chrome">
 			<classes>
-				<class name="com.testingshastra.uitests.SignUpTest"></class>
+				<!--  <class name="com.testingshastra.uitests.SignUpTest"></class>-->
 				<class name="com.testingshastra.uitests.homepagetests.HomePageTests"></class>
 				<class name ="com.testingshastra.config.BaseClass"></class>
 			</classes>
@@ -15,7 +15,7 @@
 	<test name="Firefox Test">
 		<parameter name="browser-name" value="Chrome">
 			<classes>
-				<class name="com.testingshastra.uitests.SignUpTest"></class>
+				<!--  <class name="com.testingshastra.uitests.homepagetests.SignUpTest"></class>-->
 				<class name="com.testingshastra.uitests.homepagetests.HomePageTests"></class>
 				<class name ="com.testingshastra.config.BaseClass"></class>
 			</classes>

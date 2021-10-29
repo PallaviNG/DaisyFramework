@@ -9,7 +9,7 @@ public class PropertiesFile {
 	public static String getProperty(String fileName, String key) {
 		String value = "";
 		String dir = System.getProperty("user.dir");
-		String x = System.getProperty("x");
+		//String x = System.getProperty("x");
 		try {
 			FileInputStream fis = new FileInputStream(dir+fileName);
 			Properties props = new Properties();

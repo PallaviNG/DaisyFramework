@@ -43,8 +43,6 @@ public class SignUpTest extends BaseClass{
 				keyword.enterText(Locator.SIGNUP_CONTACT,"9325493115");
 				keyword.enterText(Locator.SIGNUP_PASSWORD,"abc@123");
 				
-				
-				
 				keyword.switchToFrameAt(0);
 //				keyword.click("css","div.recaptcha-checkbox-border");
 				WebElement element = keyword.getWebElement("css", "div.recaptcha-checkbox-border");
