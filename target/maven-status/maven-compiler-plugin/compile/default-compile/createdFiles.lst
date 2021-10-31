@@ -1,5 +1,6 @@
 com\testingshastra\keywords\UIKeywords.class
 com\testingshastra\config\BaseClass.class
+com\testingshastra\pages\ContactSalesPage.class
 com\testingshastra\utility\PropertiesFile.class
 com\testingshastra\pages\JoinMeetingPage.class
 com\testingshastra\utility\TestListener.class
