@@ -7,7 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.automation.keywords.UIKeywords;
+import com.testingshastra.keywords.UIKeywords;
+
 
 public class WaitsFor {
 	private static final WebDriverWait wait;
