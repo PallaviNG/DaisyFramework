@@ -44,6 +44,6 @@ public class HomePageTests extends BaseClass {
 		keyword.launchURL("https://ijmeet.com/");
 		HomePage home = new HomePage();
 		home.getTextOfLinks();
-	System.out.println("Hello");
+	System.out.println("Commit Changes");
 	}
 }
