@@ -45,5 +45,6 @@ public class HomePageTests extends BaseClass {
 		HomePage home = new HomePage();
 		home.getTextOfLinks();
 	System.out.println("Commit Changes");
+	System.out.println("Another Change");
 	}
 }
