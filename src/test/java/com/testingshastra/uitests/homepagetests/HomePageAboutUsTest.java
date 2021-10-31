@@ -1,6 +1,6 @@
 package com.testingshastra.uitests.homepagetests;
 
-
+import org.openqa.selenium.JavascriptExecutor;
 
 //import java.time.Duration;
 
@@ -13,14 +13,18 @@ import com.testingshastra.pages.HomePageAboutUsPage;
 
 public class HomePageAboutUsTest extends BaseClass {
 	UIKeywords keyword = UIKeywords.getInstance();
-@Test
-	public <about_us> void clickOnAboutUs() {
+
+	@Test
+	public void clickOnAboutUs() throws InterruptedException {
 		keyword.launchURL("https://ijmeet.com");
-		//UIKeywords.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		HomePageAboutUsPage about=  PageFactory.initElements(UIKeywords.driver, HomePageAboutUsPage.class);
+		// UIKeywords.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		HomePageAboutUsPage about = PageFactory.initElements(UIKeywords.driver, HomePageAboutUsPage.class);
 		
-		System.out.println("Text>>>:"+ about.getText());
-	System.out.println(about.getTitleOfThePage());
-	//about.clikcOnAboutUs() ;
-}
+		JavascriptExecutor js = (JavascriptExecutor) keyword.driver;
+		js.executeScript("window.scrollBy(0,1850)", "");
+		
+		System.out.println("Text>>>:" + about.getText());
+		System.out.println(about.getTitleOfThePage());
+		about.clickOnAboutUs();
+	}
 }

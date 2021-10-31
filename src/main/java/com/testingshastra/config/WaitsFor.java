@@ -22,7 +22,6 @@ public class WaitsFor {
 		wait.withTimeout(Duration.ofSeconds(duration));
 		wait.ignoring(NoSuchElementException.class);
 		wait.until(ExpectedConditions.visibilityOf(element));
-
 	}
 
 	public static void stalenessOfElement(WebElement element, int duration) {
