@@ -38,13 +38,13 @@ public class HomePageTests extends BaseClass {
 			e.printStackTrace();
 		}
 	}
-	
+
 	@Test
 	public void printAllInfoLinks() {
 		keyword.launchURL("https://ijmeet.com/");
 		HomePage home = new HomePage();
 		home.getTextOfLinks();
-	System.out.println("Hello");
-	System.out.println("Another Change...");
+		System.out.println("Hello");
+		System.out.println("Another Change...");
 	}
 }
