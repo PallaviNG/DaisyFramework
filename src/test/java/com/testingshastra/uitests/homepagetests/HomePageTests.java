@@ -31,7 +31,7 @@ public class HomePageTests extends BaseClass {
 		JoinMeetingPage joinMeeting = PageFactory.initElements(UIKeywords.driver, JoinMeetingPage.class);
 		String actualTitle = joinMeeting.getQuickJoinMeetingTitle();
 		Assert.assertTrue(actualTitle.contains("Quick"));
-		System.out.println("Passed");
+		System.out.println("Passed (testing purpose)");
 		try {
 			Thread.sleep(1500);
 		} catch (InterruptedException e) {
