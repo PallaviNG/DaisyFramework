@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 import com.testingshastra.config.BaseClass;
 import com.testingshastra.keywords.UIKeywords;
 import com.testingshastra.pages.ContactSalesPage;
-import com.testingshastra.pages.HomePage;
 import com.testingshastra.utility.WaitFor;
 
 public class ContactSalesTest extends BaseClass{
