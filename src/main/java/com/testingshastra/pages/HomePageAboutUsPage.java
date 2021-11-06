@@ -9,14 +9,16 @@ import com.testingshastra.utility.WaitFor;
 
 public class HomePageAboutUsPage {
 	UIKeywords keywords = UIKeywords.getInstance();
-	@FindBy(xpath = "//a[contains(text(),'About ')]")
+
+	@FindBy(css = "div.row.footer-last-view-support > div:nth-child(3) > ul > li:nth-child(1) > a")
 	public WebElement about_us;
 
-	public void clikcOnAboutUs() {
-		new WaitFor();
-		WaitFor.visibilityOfElement(about_us, 30);
-		WaitFor.elementToBeClickableElement(about_us, 80);
-		about_us.click();
+	public void clickOnAboutUs() throws InterruptedException {
+//		WaitFor.visibilityOfElement(about_us, 500);
+//		WaitFor.elementToBeClickableElement(about_us, 8000);
+//		about_us.click();
+		Thread.sleep(1500);
+		keywords.click(about_us);
 	}
 
 	public String getTitleOfThePage() {
@@ -26,5 +28,4 @@ public class HomePageAboutUsPage {
 	public String getText() {
 		return about_us.getText();
 	}
-
 }
